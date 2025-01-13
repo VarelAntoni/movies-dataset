@@ -28,7 +28,7 @@ df = load_data()
 genres = st.multiselect(
     "Genres",
     df.genre.unique(),
-    ["Action", "Adventure", "Biography", "Comedy", "Drama", "Horror"],
+    ["Action", "Adventure", "Animation", "Comedy", "Drama", "Horror"],
 )
 
 # Show a slider widget with the years using `st.slider`.
